@@ -1,24 +1,18 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+body {
+    background: #F7971E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
 a {
 	text-decoration: none;
 	opacity: 0.75;
-	color: #fff;
+	color: black;
 }
 
 a:hover {
 	opacity: 1;
 }
-
-body {
-    background: #D3CCE3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
 
 .name {
     display: flex;
@@ -30,13 +24,22 @@ body {
     justify-content: center;
 }
 
-.grid {
-	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
-    justify-content: center;
+
+p.links {
+    padding: 5px;
+    border-style: dotted;
+    border-color: rgb(192, 142, 3);
+
 }
 
 #exp {
     border: black;
+}
+
+.row {
+    padding: 50px;
+}
+
+.rounded {
+ padding: 5px;
 }
